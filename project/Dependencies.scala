@@ -31,7 +31,7 @@ object Dependencies extends AutoPlugin {
     lazy val REQUESTS        = "com.lihaoyi"            %% "requests"                   % "0.8.0"
 
     lazy val LOG = Seq(
-      "org.slf4j"                   % "log4j-over-slf4j" % "2.0.0",
+      "org.slf4j"                   % "log4j-over-slf4j" % "2.0.6",
       "com.typesafe.scala-logging" %% "scala-logging"    % "3.9.5",
       "ch.qos.logback"              % "logback-classic"  % "1.4.5"
     )
