@@ -2,6 +2,7 @@ version      := "0.1.0"
 scalaVersion := "2.13.10"
 name         := "scalaia"
 organization := "me.ooon"
+target       := studioTarget.value
 
 Global / excludeLintKeys := Set(idePackagePrefix)
 
