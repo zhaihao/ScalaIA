@@ -8,7 +8,7 @@ Global / excludeLintKeys := Set(idePackagePrefix)
 
 idePackagePrefix := Some("me.ooon.scalaia")
 
-libraryDependencies ++= Seq(NSCALA, OS_LIB, SQUANTS, ORISON, TYPESAFE_CONFIG, PLAY_JSON, NSCALA, CK, ARGON2, REQUESTS)
+libraryDependencies ++= Seq(NSCALA, OS_LIB, SQUANTS, ORISON, TYPESAFE_CONFIG, PLAY_JSON, NSCALA, CK, ARGON2, REQUESTS, SCRAPER)
 libraryDependencies ++= Seq(SCALA_TEST, LOG).flatten
 
 excludeDependencies ++= Seq(
