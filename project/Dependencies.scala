@@ -32,7 +32,7 @@ object Dependencies extends AutoPlugin {
     lazy val SCRAPER         = "net.ruippeixotog"       %% "scala-scraper"              % "3.1.1"
 
     lazy val LOG = Seq(
-      "org.slf4j"                   % "log4j-over-slf4j" % "2.0.11",
+      "org.slf4j"                   % "log4j-over-slf4j" % "2.0.12",
       "com.typesafe.scala-logging" %% "scala-logging"    % "3.9.5",
       "ch.qos.logback"              % "logback-classic"  % "1.4.14"
     )
