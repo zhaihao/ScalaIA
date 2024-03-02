@@ -1,5 +1,5 @@
 version      := "0.1.0"
-scalaVersion := "2.13.12"
+scalaVersion := "2.13.13"
 name         := "scalaia"
 organization := "me.ooon"
 target       := studioTarget.value
