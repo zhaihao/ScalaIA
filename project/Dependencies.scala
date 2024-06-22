@@ -24,7 +24,7 @@ object Dependencies extends AutoPlugin {
     lazy val OS_LIB          = "com.lihaoyi"            %% "os-lib"                     % "0.10.2"
     lazy val SQUANTS         = "org.typelevel"          %% "squants"                    % "1.7.4"
     lazy val TYPESAFE_CONFIG = "com.typesafe"            % "config"                     % "1.4.3"
-    lazy val PLAY_JSON       = "org.playframework"      %% "play-json"                  % "3.0.3"
+    lazy val PLAY_JSON       = "org.playframework"      %% "play-json"                  % "3.0.4"
     lazy val PAR             = "org.scala-lang.modules" %% "scala-parallel-collections" % "1.0.4"
     lazy val CK              = "com.github.housepower"   % "clickhouse-native-jdbc"     % "2.7.1"
     lazy val ARGON2          = "de.mkammerer"            % "argon2-jvm"                 % "2.11"
