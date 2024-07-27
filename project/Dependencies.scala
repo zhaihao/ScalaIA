@@ -28,7 +28,7 @@ object Dependencies extends AutoPlugin {
     lazy val PAR             = "org.scala-lang.modules" %% "scala-parallel-collections" % "1.0.4"
     lazy val CK              = "com.github.housepower"   % "clickhouse-native-jdbc"     % "2.7.1"
     lazy val ARGON2          = "de.mkammerer"            % "argon2-jvm"                 % "2.11"
-    lazy val REQUESTS        = "com.lihaoyi"            %% "requests"                   % "0.8.3"
+    lazy val REQUESTS        = "com.lihaoyi"            %% "requests"                   % "0.9.0"
     lazy val SCRAPER         = "net.ruippeixotog"       %% "scala-scraper"              % "3.1.1"
 
     lazy val LOG = Seq(
