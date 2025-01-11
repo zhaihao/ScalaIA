@@ -20,7 +20,7 @@ object Dependencies extends AutoPlugin {
   object autoImport {
 
     lazy val ORISON          = "me.ooon"                %% "orison"                     % "1.0.17"
-    lazy val NSCALA          = "com.github.nscala-time" %% "nscala-time"                % "2.34.0"
+    lazy val NSCALA          = "com.github.nscala-time" %% "nscala-time"                % "3.0.0"
     lazy val OS_LIB          = "com.lihaoyi"            %% "os-lib"                     % "0.11.3"
     lazy val SQUANTS         = "org.typelevel"          %% "squants"                    % "1.7.4"
     lazy val TYPESAFE_CONFIG = "com.typesafe"            % "config"                     % "1.4.3"
